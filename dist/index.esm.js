@@ -2186,7 +2186,7 @@ var PanelFooter = function (_a) {
     if (!isPushed) {
         return (React.createElement(Container$4, null,
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
-                React.createElement(Icon$l, null))));
+                React.createElement(Icon$l, {color: "textSubtle" }))));
     }
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
