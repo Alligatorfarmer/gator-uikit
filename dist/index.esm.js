@@ -1526,7 +1526,7 @@ var shadows = {
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #8a6a10, 0px 0px 0px 4px #8a6a10",
+    focus: "0px 0px 0px 1px rgb(255, 114, 13), 0px 0px 0px 4px rgb(255, 114, 13)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -2646,7 +2646,7 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#8a6a10",
+    primary: "rgb(255, 114, 13)",
     primaryBright: "#67500c",
     primaryDark: "#8f6e10",
     secondary: "#a56227",
