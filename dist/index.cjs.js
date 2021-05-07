@@ -2199,7 +2199,7 @@ var PanelFooter = function (_a) {
     if (!isPushed) {
         return (React__default['default'].createElement(Container$4, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
-                React__default['default'].createElement(Icon$l, {color: "textSubtle" }))));
+                React__default['default'].createElement(Icon$l, {color: "card" }))));
     }
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null,
