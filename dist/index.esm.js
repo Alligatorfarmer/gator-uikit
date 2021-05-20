@@ -1993,11 +1993,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.vikingswap.finance",
+                href: "https://exchange.gatorswap.xyz",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.vikingswap.finance/#/pool",
+                href: "https://exchange.gatorswap.xyz/#/pool",
             },
         ],
     },
@@ -2034,16 +2034,11 @@ var links = [
         items: [
             {
                 label: "Github",
-                href: "https://github.com/VikingDefi/",
-            },
-            {
-                label: "Docs",
-                href: "https://vikingswap.gitbook.io/viking-swap/",
-            },
-            {
+                href: "https://github.com/Alligatorfarmer",
+            }, {
                 label: "Blog",
-                href: "https://viking-swap.medium.com/",
-            },
+                href: "/",
+            }
         ],
     },
 ];
@@ -2142,9 +2137,11 @@ var templateObject_1$A, templateObject_2$b;
 var MenuLink = function (_a) {
     var href = _a.href, otherProps = __rest(_a, ["href"]);
     var isHttpLink = href === null || href === void 0 ? void 0 : href.startsWith("http");
+    console.log(isHttpLink);
+    console.log(otherProps);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : NavLink;
-    var props = isHttpLink ? { href: href } : { to: href };
+    var props = isHttpLink ? { href: href, target: '_blank' } : { to: href };
     return React.createElement(Tag, __assign({}, props, otherProps));
 };
 
