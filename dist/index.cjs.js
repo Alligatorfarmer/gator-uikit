@@ -2067,18 +2067,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/VikingSwapOfficial",
+                href: "https://t.me/gatorswap",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/vikingswapannouncements",
+                href: "https://t.me/AlligatorSwapAnnouncements",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/",
+        href: "https://twitter.com/AlligatorSwap",
     },
 ];
 var MENU_HEIGHT = 64;
